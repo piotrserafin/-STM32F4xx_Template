@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/STM32F4xx_Template.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "external",
+            "svdFile": "./Hw/svd/STM32F411.svd",
+            "gdbTarget": "192.168.0.31:3333",
+            "windows": {
+                "armToolchainPath": "D:/dev/gcc-arm-none-eabi/bin"
+            }
+        }
+    ]
+}

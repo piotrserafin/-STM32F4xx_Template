@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Arm",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                "-g"
+            ]
+        }
+    ],
+    "version": 4
+}
